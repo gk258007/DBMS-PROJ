@@ -1,0 +1,5 @@
+Add the list of approaches and the add-ons to the project with the serial number and add your names next to it
+///////////////////////////////////////////////////////////////////////
+
+1.The user sends request to the event mgr and based on the event mgr props and availability he approves whcih sends the user a push email and a event gets created on the calendar of EVent mngr page. - GK
+
