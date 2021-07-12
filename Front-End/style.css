@@ -22,12 +22,67 @@
     background-color: #22c1c3;
     color: white;
   }*/
-
+.Date{
+  display: inline-block;
+  float: left;
+  padding-left: 10px;
+}
   .headerNav a.log{
     float:right;
   }
-  .interactive{
-    border: 2px black solid;
-    align-content: center;
-    width: 250px;
+  div label {
+    display: block;
+}
+.tog{
+  float:right;
+
+}
+.o{
+  padding-right: 10px;
+  float: right;
+}
+.loc{
+  float: left;
+  align:center;
+  padding-left: 20px;
+}
+
+.foo{
+  display: flex;
+  padding-top: 30px;
+  height: 250px;
+  margin: auto;
+  width: 250px;
+}
+.p{
+  padding-left: 10px;
+  float: left;
+}
+.custom-control-input:focus ~ 
+.custom-control-label::before {
+      border-color: black !important;
+      
+      box-shadow:
+        0 0 0 0rem rgba(0, 0, 0, 0) !important;
   }
+.custom-control-input:checked ~ 
+          .custom-control-label::before {
+                border-color: black !important;
+                background-color: black !important;
+            }
+.custom-control-input:active ~ 
+          .custom-control-label::before {
+                background-color: black !important;
+                border-color: black !important;
+            }
+  .interactive{
+    margin:auto;
+    overflow: hidden;
+    border-radius: 25px;
+    width: 750px;
+    border: 3px solid black;
+    padding: 10px;
+  }
+
+
+
